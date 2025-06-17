@@ -17,10 +17,10 @@ of youTube Music, which has less functionalities and user metadata.
   3.2. +/- -> plus sign interpreted as operator in gsheets
   3.3.
 
-## References
-edited from src: https://gist.github.com/dcalacci/7f8853174797c0c56c49
-
 ### Changes to src
+
+See: playlist_ui_scraper2.js
+
 1. removed `\t`.
 2. append `trim()` to all scraped fields to remove trailing spaces.
 3. change delimiter from comma to double-pipe to account for non-delimiting commas in exported data.
