@@ -1,8 +1,11 @@
+// Processing Steps Quick Reference:
 // 1. double-pipe delimited
 // 2. remove double-quotes
 // 3. manual cleanup for len>300 fields:
   // 3.1. zedd-true colors (grey remix) -> album name messing up parsing
   // 3.2. +/- -> plus sign interpreted as operator in gsheets
+
+// Ref: https://gist.github.com/dcalacci/7f8853174797c0c56c49
 
 var allsongs = []
 var songsToText = function(style, csv, likedonly){
